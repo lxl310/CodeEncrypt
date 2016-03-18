@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="标题"
+            android:textColor="@color/title_color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/titlee"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textColor="@color/title_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:text="分组"
+            android:textColor="@color/name_color"
+            android:textSize="15sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/gro"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+
+            android:inputType="textVisiblePassword"
+            android:maxLines="1"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="账号"
+            android:textColor="@color/name_color"
+            android:textSize="15sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/namee"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:text="密码"
+            android:textColor="@color/name_color"
+            android:textSize="15sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/passwordd"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:inputType="textVisiblePassword"
+            android:maxLines="1"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:text="备注"
+            android:textColor="@color/name_color"
+            android:textSize="15sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/remarkk"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:completionThreshold="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:inputType="textVisiblePassword"
+            android:maxLines="1"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
